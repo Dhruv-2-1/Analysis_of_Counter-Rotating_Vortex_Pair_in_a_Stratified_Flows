@@ -1,6 +1,6 @@
 # 3D-to-2D Slice Projection Tool for Nek5000 Data
 
-This MATLAB script extracts a 2D slice from a 3D flow field file (e.g., `WING0.f00001`) and maps it onto the mesh of a 2D dummy file (e.g., `BASvortex_dir0.f00001`).  
+This MATLAB script extracts a 2D slice from a 3D flow field file and maps it onto the mesh of a 2D dummy file.  
 The slice is taken in the **(Y, Z)** plane and assumed to be **extruded along the X-axis**, enabling simplified visualization or comparative analysis of 3D results on a 2D geometry.
 
 - Reads 3D Nek5000 field files (`.f00001`)  
