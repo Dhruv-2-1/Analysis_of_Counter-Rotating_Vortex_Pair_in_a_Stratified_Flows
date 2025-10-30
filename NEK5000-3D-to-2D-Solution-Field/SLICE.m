@@ -40,7 +40,7 @@ arry_vw = arry_vw(:,idx);
 arry_pt = arry_pt(:,idx);
 
 %% Output Solution Field 
-[data,lr1,elmap,time,istep,fields,emode,wdsz,etag,header,status] = readnek('BASvortex_dir0.f00002');
+[data,lr1,elmap,time,istep,fields,emode,wdsz,etag,header,status] = readnek('BASvortex_dir0.f00001');
 
 [nele,node,~] = size(data);
 count = 0;
@@ -205,6 +205,7 @@ function idx = binarySearch(arr,val)
     % If not exact, return lower index (for interpolation)
     idx = max(1,hi);
 end
+
 
 
 
